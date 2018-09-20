@@ -1,0 +1,51 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+@import "syntax-variables";
+
+// atom-text-editor {
+//   --cursory-glance-cursor-count: "1";
+//   &::before {
+//   content: var(--cursory-glance-cursor-count);
+//   font-size: 160%;
+//   color: @syntax-background-color;
+//   background-color: @syntax-text-color;
+//   display: block;
+//   z-index: 100;
+//   position: absolute;
+//   padding: 2px;
+//   bottom: -3px;
+//   right: 0;
+//   border-radius: 3px;
+// }
+// }
+
+// atom-text-editor.cursory-glance .cursor {
+//   border: 1px solid @syntax-cursor-color;
+// }
+// atom-text-editor.cursory-glance .cursor::before {
+atom-text-editor.cursory-glance .cursor::before {
+  //content: var(--cursory-glance-cursor-count);
+  content: '*';
+  font-size: 60%;
+  color: @syntax-background-color;
+  background-color: @syntax-text-color;
+  display: block;
+  z-index: 100;
+  position: absolute;
+  padding: 2px;
+  bottom: -3px;
+  right: 0;
+  border-radius: 3px;
+}
+
+atom-text-editor.cursory-glance.cursory-glance-2 .cursor::before { content: "2" }
+atom-text-editor.cursory-glance.cursory-glance-3 .cursor::before { content: "3" }
+atom-text-editor.cursory-glance.cursory-glance-4 .cursor::before { content: "4" }
+atom-text-editor.cursory-glance.cursory-glance-5 .cursor::before { content: "5" }
+atom-text-editor.cursory-glance.cursory-glance-6 .cursor::before { content: "6" }
+atom-text-editor.cursory-glance.cursory-glance-7 .cursor::before { content: "7" }
+atom-text-editor.cursory-glance.cursory-glance-8 .cursor::before { content: "8" }
+atom-text-editor.cursory-glance.cursory-glance-9 .cursor::before { content: "9" }

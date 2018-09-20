@@ -1,0 +1,17 @@
+{
+  "name": "cursory-glance",
+  "main": "./lib/cursory-glance",
+  "version": "0.0.0",
+  "description": "Highlight the cursors when there are more than of them",
+  "keywords": [
+  ],
+  "activationCommands": {
+  },
+  "repository": "https://github.com/tuomassalo/atom-cursory-glance",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
